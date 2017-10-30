@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: 微软雅黑;
+}
+.body{
+    width: 100%;
+    height: 770px;
+    background: url("../images/zc&dl/wrap_bg.jpg") no-repeat;
+}
+/*底部*/
+.foot{
+    width: 100%;
+    height: 70px;
+    background:#000000;
+    color:#666666;
+    font-size: 90%;
+}
+.foot_one{
+    margin-left: 500px;
+    padding-top: 10px;
+}
+.foot_one span:nth-child(1){
+    border-right: 1px solid #666666;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.foot_one span:nth-child(2){
+    border-right: 1px solid #666666;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.foot_one span:nth-child(3){
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.foot_two{
+    margin-left: 410px;
+    margin-top: 10px;
+}
+.foot_two span:nth-child(1){
+    cursor: pointer;
+}
+.foot_one span:nth-child(1):hover,
+.foot_one span:nth-child(2):hover,
+.foot_one span:nth-child(3):hover,
+.foot_two span:nth-child(1):hover{
+    text-decoration: underline;
+}
+.body_center{
+    width:1000px;
+    height: 700px;
+    background: #FFFFFF;
+    position: relative;
+    top: 70px;
+    left: 250px;
+}
+.center{
+    width: 550px;
+    height: 550px;
+    border: 1px solid #ddd;
+    position: absolute;
+    bottom:50px;
+    left: 50px;
+}
+.pic_1{
+    width: 180px;
+    height: 20px;
+    position: absolute;
+    left: 50px;
+    top: 40px;
+}
+.pic_2{
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    cursor: pointer;
+}
+.pic_3{
+    position:absolute;
+    right:50px;
+    top: 140px;
+}
+.center_one{
+    width:100%;
+    height: 450px;
+}
+.center_two>div input{
+    width: 15px;
+    height: 15px;
+}
+.center_two>div>span{
+    color: #73BB38;
+}
+.center_two>div>a{
+    text-decoration: none;
+    color: #4A9CE6;
+}
+.center_two>p{
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #C9242A;
+    color: white;
+    font-size: 120%;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.center_two>div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.center_one>ul li{
+    float: left;
+    height:38px;
+    width:33%;
+    margin-left: 1px;
+    background: #222222;
+    color: white;
+    font-size: 120%;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+}
+.center_one>ul li:nth-child(1){
+    background:#222222 url("../images/zc&dl/sj.png") no-repeat 30px;
+}
+.center_one>ul li:nth-child(2){
+    background:#222222 url("../images/zc&dl/yx.png") no-repeat 30px;
+}
+.center_one>ul li:nth-child(3){
+    background:#222222 url("../images/zc&dl/gx.png") no-repeat 30px;
+}
+.center_one>div{
+    clear: both;
+    width: 100%;
+    height: 412px;
+}
+/*手机注册*/
+.first{
+    width: 100%;
+    height: 412px;
+    overflow: hidden;
+    display: none;
+}
+.first>.first_one,
+.first>.first_two,
+.first>.first_three,
+.first>.first_four{
+    width: 450px;
+    height: 80px;
+    margin-top: 16px;
+    margin-left: 50px;
+}
+.first_one>p{
+    height:30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.one{
+    border: 1px solid #ddd;
+    color: #676762;
+}
+.two{
+    border: 1px solid #ddd;
+    color: red;
+}
+.three{
+    border: 1px solid #ddd;
+    color: yellow;
+}
+.four{
+    border: 1px solid #ddd;
+    color: #58CBFD;
+}
+.first_one>input{
+    width: 100%;
+    height:50px;
+    border-radius: 5px;
+    font-size: 120%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+.first_two>p{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.first_two ul li{
+    float: left;
+}
+.first_two ul li:nth-child(1){
+    width: 25%;
+    height: 50px;
+ }
+.first_two ul li:nth-child(2){
+    width: 75%;
+    height: 50px;
+}
+.first_two ul li input{
+    width: 100%;
+    height: 50px;
+    font-size: 120%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+.first_two ul li img{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+}
+.first_three>P{
+    height: 30px;
+    line-height: 30px;
+    padding-left:20px;
+}
+.first_three ul{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+.first_three ul li{
+    float: left;
+    height: 50px;
+}
+.first_three ul li:nth-child(1){
+    width: 60%;
+}
+.first_three ul li:nth-child(2){
+    width: 40%;
+}
+.first_three ul li input{
+    width: 100%;
+    height: 50px;
+    font-size: 120%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+.first_three ul li p{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background:#E5E6E6;
+    cursor: pointer;
+}
+.first_four p{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.first_four input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 120%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+/*邮箱注册*/
+.second{
+    width: 100%;
+    height: 412px;
+    overflow: hidden;
+    display: none;
+}
+.second>.second_one,
+.second>.second_two,
+.second>.second_three{
+    width: 450px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.second_one>p{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.second_one input{
+    width: 100%;
+    height:50px;
+    border-radius: 5px;
+    font-size: 120%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+.second_two>p{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.second_two input{
+    width: 100%;
+    height:50px;
+    border-radius: 5px;
+    font-size: 120%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+.second_three>p{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.second_three ul li{
+    float: left;
+}
+.second_three ul li:nth-child(1){
+    width: 25%;
+    height: 50px;
+}
+.second_three ul li:nth-child(2){
+    width: 75%;
+    height: 50px;
+}
+.second_three img{
+    width: 100%;
+    height: 50px;
+}
+.second_three input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 120%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+/*个性注册*/
+.third{
+    width: 100%;
+    height: 412px;
+    overflow: hidden;
+    display: none;
+}
+.third_one{
+    width: 450px;
+    height: 200px;
+    margin: 10px auto;
+}
+.third_one p{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+.third_one input{
+    width: 70px;
+    margin-left: 190px;
+    margin-top: 15px;
+}
+.third>.third_two,
+.third>.third_three{
+    width: 450px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.third_two>p{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.third_two input{
+    width: 100%;
+    height:50px;
+    border-radius: 5px;
+    font-size: 120%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+.third_three>p{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.third_three input{
+    width: 100%;
+    height:50px;
+    border-radius: 5px;
+    font-size: 120%;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px #ddd;
+}
+/*tab页*/
+.center_one>ul li.bs{
+    background:#C9242A;
+}
+.cx{
+    display: block;
+}
+/*蒙板和提示页*/
+.mb{
+    background: rgba(0,0,0,0.5);
+    width: 100px;
+    height:100px;
+    position: absolute;
+    z-index: 9999;
+}
+.ts{
+    width: 648px;
+    height:447px;
+    border: 10px solid rgba(0,0,0,0.5);
+    display: none;
+    position: absolute;
+    z-index: 10000;
+}
+.ts>p{
+    height: 50px;
+    line-height: 50px;
+    background:#C9242A;
+    font-size: 120%;
+    color: white;
+    padding-left: 25px;
+    position: relative;
+}
+.ts>p>span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    position: absolute;
+    background: #9E0006;
+    top: 14px;
+    right: 14px;
+    cursor: pointer;
+}
+.ts>p>span:hover{
+    width: 24px;
+    height: 24px;
+    background: #C00209;
+}

@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-family: 微软雅黑;
+}
+body{
+    width: 1349px;
+    height: 1554px;
+    background:url("../images/download/download.jpg") no-repeat -285px 0;
+    position: relative;
+}
+.body_top{
+    width: 100%;
+    height: 140px;
+    background: rgba(0,0,0,0.2);
+    position: absolute;
+    top: 0;
+}
+.top{
+    width: 770px;
+    height: 26px;
+    margin-left: 440px;
+}
+.top>li{
+    float: left;
+    width: 110px;
+    height: 40px;
+    line-height:40px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+}
+.top>li a{
+    text-decoration: none;
+    color: #ddd;
+}
+.child{
+    width: 770px;
+    height: 110px;
+    margin-left: 440px;
+}
+.child>li{
+    width: 109px;
+    height: 110px;
+    float: left;
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+.child>li>ul>li{
+    width: 110px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 80%;
+    color: #ddd;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.child>li:nth-child(2)>ul>li:nth-child(1),
+.child>li:nth-child(4)>ul>li:nth-child(1),
+.child>li:nth-child(5)>ul>li:nth-child(1),
+.child>li:nth-child(6)>ul>li:nth-child(1),
+.child>li:nth-child(7)>ul>li:nth-child(1){
+    background: url("../images/new/red.jpg") no-repeat 10px;
+}
+.child>li:nth-child(2)>ul>li:nth-child(2),
+.child>li:nth-child(4)>ul>li:nth-child(2),
+.child>li:nth-child(4)>ul>li:nth-child(3),
+.child>li:nth-child(4)>ul>li:nth-child(4){
+    background: url("../images/new/blue.jpg") no-repeat 10px;
+}
+.child>li>ul>li:hover{
+    color: yellow;
+}
+.sha{
+     position: absolute;
+     left: 170px;
+     z-index: 10;
+     cursor: pointer;
+ }
+body>span{
+    position: absolute;
+    font-size: 80%;
+    color:#7BE032;
+    top: 400px;
+    right: 150px;
+}
+.body_center{
+    width: 1050px;
+    height: 985px;
+    position: absolute;
+    top: 424px;
+    left: 150px;
+}
+.first{
+    height: 330px;
+    border-bottom: 1px dashed #D5D5D3;
+    position: relative;
+}
+.content{
+    width: 435px;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+.first>img{
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+}
+.dl_1{
+    float: left;
+    padding-left: 25px;
+}
+.dl_1 dt{
+    width: 179px;
+    height: 77px;
+    background: url("../images/download/ios.png");
+    cursor: pointer;
+}
+.dl_1 dt:hover{
+    opacity:0.8;
+}
+.dl_1 dt span:nth-child(1){
+    display: inline-block;
+    color: #fff;
+    font-size: 150%;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+.dl_1 dt span:nth-child(2){
+    display: inline-block;
+    color: #fff;
+    font-size: 90%;
+    margin-left: 30px;
+}
+.dl_1 dd{
+    font-size: 90%;
+    color: #777775;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.dl_2{
+    float: left;
+    padding-left: 25px;
+}
+.dl_2 dt{
+    width: 179px;
+    height: 77px;
+    background: url("../images/download/android.png");
+    cursor: pointer;
+}
+.dl_2 dt:hover{
+    opacity:0.8;
+}
+.dl_2 dt span:nth-child(1){
+    display: inline-block;
+    color: #fff;
+    font-size: 150%;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+.dl_2 dt span:nth-child(2){
+    display: inline-block;
+    color: #fff;
+    font-size: 80%;
+    margin-left: 10px;
+}
+.dl_2 dd{
+    font-size: 90%;
+    color: #777775;
+    margin-top: 10px;
+}
+.content>p{
+    height: 70px;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 120%;
+    color: #333;
+    padding-left: 25px;
+}
+.second{
+    height: 340px;
+    border-bottom: 1px dashed #D5D5D3;
+    position: relative;
+}
+.content_s{
+    width: 435px;
+    height: 200px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+.content_s>p{
+    height: 80px;
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 120%;
+    color: #333;
+}
+.content_s dl dt{
+    width: 248px;
+    height: 86px;
+    background: url("../images/download/wd.png");
+    overflow: hidden;
+    cursor: pointer;
+}
+.content_s dl dt:hover{
+    opacity: 0.8;
+}
+.content_s dl dt span:nth-child(1){
+    display: block;
+    font-size: 150%;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+.content_s dl dt span:nth-child(2){
+    display: block;
+    font-size: 80%;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 55px;
+}
+.content_s dl dd{
+    font-size: 90%;
+    color: #777775;
+    margin-top: 10px;
+}
+.second>img{
+    position: absolute;
+    top: 25px;
+    right: 80px;
+}
+.third{
+    position: relative;
+}
+.content_ss{
+    width: 480px;
+    height: 250px;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+.content_ss>p{
+    height: 80px;
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 120%;
+    color: #333;
+}
+.ul_1 li{
+    float: left;
+}
+.ul_1 li:nth-child(1){
+    width: 216px;
+    height: 77px;
+    background: url("../images/download/air.png");
+    cursor: pointer;
+}
+.ul_1 li:nth-child(1) p{
+    font-size: 150%;
+    color: #fff;
+    margin-top: 22px;
+    padding-left: 60px;
+}
+.ul_1 li:nth-child(2){
+     width: 215px;
+     height: 77px;
+     background: url("../images/download/sha_button.png");
+     margin-left: 15px;
+    cursor: pointer;
+ }
+.ul_1 li:nth-child(2) p:nth-child(1){
+    font-size:120%;
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+.ul_1 li:nth-child(2) p:nth-child(2){
+    font-size: 80%;
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 55px;
+}
+.ul_1 li:nth-child(1):hover,.ul_1 li:nth-child(2):hover{
+    opacity: 0.8;
+}
+.ul_2{
+    clear: both;
+    padding-top: 15px;
+}
+.ul_2 li{
+    color: #777775;
+    font-size: 90%;
+    height: 20px;
+    line-height: 20px;
+}
+.third>img{
+    position: absolute;
+    right:80px;
+    top: 20px;
+}
+.body_foot{
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
+.ewm{
+    position: fixed;
+    top: 420px;
+    right: 25px;
+}
+
+
